@@ -1,0 +1,19 @@
+package carproject;
+
+public class Array {
+	
+	public static void main(String[] args) {
+		int a[] = {1,2,3};
+		int b[][] = {{1,2,3},{2,3,4},{4,5,6}};
+		int i ;
+		int j;
+		for(i=0;i<b.length;i++) {
+			for(j=0;j<b[i].length;j++) {
+				System.out.print(b[i][j]);
+			}
+			if( j%3 ==0) {
+				System.out.println();
+			}
+		}
+	}
+}

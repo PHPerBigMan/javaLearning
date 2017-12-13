@@ -1,0 +1,14 @@
+package FacingCode;
+
+public class Integer {
+	public Integer(int i) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		int max = 23;
+		Double number = new Double(3223);
+		double min = 2.2;
+		System.out.println(number.toHexString(number));
+	}
+}

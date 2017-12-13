@@ -1,0 +1,9 @@
+package FacingCode;
+
+public class Integer {
+	public static void main(String[] args) {
+		int max = 23;
+		double min = 2.2;
+		System.out.println(max - min);
+	}
+}

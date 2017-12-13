@@ -1,0 +1,14 @@
+package FacingCode;
+
+public class Integer {
+	public Integer(int i) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		int max = 23;
+		char name = 'w';
+		char name_name = new Character('s');
+		System.out.println(Character.toUpperCase(name_name));
+	}
+}

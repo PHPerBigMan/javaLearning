@@ -1,0 +1,15 @@
+package FacingCode;
+
+public class Integer {
+	public Integer(int i) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		int max = 23;
+		char name = 'w';
+		char name_name = new Character('s');
+		Double aInteger = 20.2;
+		System.out.println(aInteger.toHexString(aInteger));
+	}
+}
