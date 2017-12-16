@@ -1,0 +1,11 @@
+package Swing;
+
+import javax.swing.JFrame;
+
+public class JFrameDemo {
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("窗体标题");
+		// 这是窗体可见
+		frame.setVisible(true);
+	}
+}

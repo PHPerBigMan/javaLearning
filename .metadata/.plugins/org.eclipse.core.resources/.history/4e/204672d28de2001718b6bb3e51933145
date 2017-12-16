@@ -1,0 +1,10 @@
+package Swing;
+
+import javax.swing.JFrame;
+
+public class JFrameDemo {
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("¥∞ÃÂ±ÍÃ‚");
+		frame.setVisible(true);
+	}
+}
