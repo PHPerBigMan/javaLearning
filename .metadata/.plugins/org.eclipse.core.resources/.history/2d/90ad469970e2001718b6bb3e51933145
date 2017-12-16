@@ -1,0 +1,5 @@
+package dec;
+
+public interface SetParameter {
+	int FINALNUM = 20;
+}

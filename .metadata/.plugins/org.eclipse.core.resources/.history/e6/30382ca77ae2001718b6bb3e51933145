@@ -1,0 +1,14 @@
+package dec;
+
+public enum Sumber implements SetParameter{
+	WINTER{
+
+		@Override
+		public void getSum(int array) {
+			// TODO Auto-generated method stub
+		
+			
+		}
+	};
+	int sum;
+}

@@ -1,0 +1,25 @@
+package dec;
+
+public class Demo {
+	public static void main(String[] args) {
+		
+	}
+
+	
+	public static void doit(Case c) {
+		switch (c) {
+		case MONDAY:
+			System.out.println("doit()星期一");
+			break;
+		case SATDAY:
+			System.out.println("doit()星期二");
+			break;
+		}
+	      
+	}
+	public class UseParameter implements SetParameter{
+		public void getParameter() {
+			System.out.println("使用接口成功");
+		}
+	}
+}
