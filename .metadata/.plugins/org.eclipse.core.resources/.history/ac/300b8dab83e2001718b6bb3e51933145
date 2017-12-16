@@ -1,0 +1,16 @@
+package dec;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MutiOver<K,V> {
+	Map< K, V> map = new HashMap<>();
+	
+	public void put(K k,V v) {
+		map.put(k, v);
+	}
+	
+	public void get(K k) {
+		map.get(k);
+	}
+}

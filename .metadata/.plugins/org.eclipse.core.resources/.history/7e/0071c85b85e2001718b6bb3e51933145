@@ -31,7 +31,7 @@ public class Demo{
 		get.put(0, 1);
 //		Set<Integer> num = (Set<Integer>) get.values();
 
-		
+		Collection<Integer> collection = get.values();
 	}
 	
 	

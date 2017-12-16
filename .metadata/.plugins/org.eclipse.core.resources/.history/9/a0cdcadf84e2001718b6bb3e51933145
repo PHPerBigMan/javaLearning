@@ -1,7 +1,5 @@
 package dec;
 
-import java.util.Collection;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -29,9 +27,12 @@ public class Demo{
 		
 		Map<Integer, Integer> get = new HashMap<>();
 		get.put(0, 1);
-//		Set<Integer> num = (Set<Integer>) get.values();
-
-		
+		Set<Integer> num = get.values();
+		Iterator<Integer> iterator = num.iterator();
+		while (iterator.hasNext()) {
+			System.out.println(iterator.next());
+			
+		}
 	}
 	
 	
