@@ -1,0 +1,19 @@
+package Swing;
+
+import java.awt.Container;
+
+import javax.swing.*;
+
+public class JFrameDemo2 extends JFrame{
+	public JFrameDemo2() {
+		// TODO Auto-generated constructor stub
+		
+		Container container = getContentPane();
+		// 开始设置父类
+		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+		setBounds(400, 300, 600, 500);
+	
+		
+		// 添加按钮
+	}
+}

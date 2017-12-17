@@ -1,0 +1,10 @@
+package Swing;
+
+import javax.swing.*;
+
+public class JDialogDemo2 extends JDialog{
+	public JDialogDemo2() {
+		// TODO Auto-generated constructor stub
+		// 开始创建子类
+	}
+}

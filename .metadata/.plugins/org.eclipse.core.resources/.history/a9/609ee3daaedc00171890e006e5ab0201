@@ -1,8 +1,0 @@
-package FacingCode;
-
-public class Integer {
-	public static void main(String[] args) {
-		Double num1 = new Double(23.2);
-		System.out.println(Double.toHexString(num1));
-	}
-}

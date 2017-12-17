@@ -1,0 +1,13 @@
+package Swing;
+
+import java.awt.Container;
+
+import javax.swing.*;
+
+public class JFrameDemo2 extends JFrame{
+	public JFrameDemo2() {
+		// TODO Auto-generated constructor stub
+		
+		Container container = getContentPane();
+	}
+}
