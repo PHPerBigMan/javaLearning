@@ -20,6 +20,7 @@ public class JDialogDemo2 extends JDialog{
 		setBackground(Color.lightGray);
 		// 添加label
 		JLabel jLabel = new JLabel("欢迎您的注册！祝您生活愉快");
+		// 设置字体的颜色
 		jLabel.setForeground(Color.RED);
 		// 设置字体的大小 字体类型
 		jLabel.setFont(new Font("楷体", Font.BOLD, 15));

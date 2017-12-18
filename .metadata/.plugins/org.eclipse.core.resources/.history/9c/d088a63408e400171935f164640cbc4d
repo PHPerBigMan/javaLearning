@@ -1,0 +1,11 @@
+package Swing;
+
+import javax.swing.JFrame;
+
+public class LabelSetIcon extends JFrame{
+	// ´´½¨ ´°Ìå
+	public LabelSetIcon() {
+		// TODO Auto-generated constructor stub
+		
+	}
+}

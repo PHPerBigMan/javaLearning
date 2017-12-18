@@ -13,7 +13,7 @@ public class JFrameDemo2 extends JFrame{
 		// TODO Auto-generated constructor stub
 		
 		Container container = getContentPane();
-		// 设置布局
+		// 设置布局（流布局）
 		container.setLayout(new FlowLayout());
 		// 开始设置父类
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);

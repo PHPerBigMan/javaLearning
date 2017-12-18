@@ -1,0 +1,31 @@
+package Swing;
+
+import java.awt.Container;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+// 绝对布局
+public class Absolute extends JFrame{
+	public Absolute() {
+		// TODO Auto-generated constructor stub
+	  setTitle("绝对布局");
+	  setBounds(100, 200, 300, 150);
+	  setDefaultCloseOperation(EXIT_ON_CLOSE);
+	  Container container = getContentPane();
+	  container.setLayout(null);
+	  // 添加button
+	  JButton b1 = new JButton("按钮1"), b2 = new JButton("按钮2");
+	  // 设置按钮的位置
+	  b1.setBounds(20, 20, 50, 50);
+	  b2.setBounds(30, 50, 100, 120);
+	  container.add(b1);
+	  container.add(b2);
+	  // 设置显示
+	  setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new Absolute();
+	}
+}
