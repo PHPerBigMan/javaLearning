@@ -1,0 +1,22 @@
+package Swing;
+
+import java.awt.Container;
+
+import javax.swing.JFrame;
+import javax.swing.JList;
+
+public class JListDemo extends JFrame{
+	public JListDemo() {
+		// TODO Auto-generated constructor stub
+		setBounds(100, 100, 217, 167);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		Container container = getContentPane();
+		String items[] = {"ÐìÖÝÄØ1","ÐìÖÝÄØ2","ÐìÖÝÄØ3","ÐìÖÝÄØ4","ÐìÖÝÄØ5","ÐìÖÝÄØ6","ÐìÖÝÄØ7"}; 
+		JList<String> jList = new JList<>(items);
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new JListDemo();
+	}
+}

@@ -1,0 +1,18 @@
+package Swing;
+
+import javax.swing.JFrame;
+
+public class MailSend extends JFrame{
+	public MailSend() {
+		// TODO Auto-generated constructor stub
+		setTitle("ÓÊ¼þ·¢ËÍ");
+		setBounds(350, 50, 880, 660);
+		setResizable(false);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new MailSend();
+	}
+}

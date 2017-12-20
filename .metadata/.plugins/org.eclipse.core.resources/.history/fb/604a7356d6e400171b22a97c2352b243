@@ -1,0 +1,25 @@
+package Swing;
+
+import java.awt.Container;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class MailSend extends JFrame{
+	public MailSend() {
+		// TODO Auto-generated constructor stub
+		setTitle("邮件发送");
+		setBounds(350, 50, 880, 660);
+		setResizable(false);
+		Container container = getContentPane();
+		container.setLayout(null);
+		// 开始添加面板
+		// 顶部按钮组
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new MailSend();
+	}
+}

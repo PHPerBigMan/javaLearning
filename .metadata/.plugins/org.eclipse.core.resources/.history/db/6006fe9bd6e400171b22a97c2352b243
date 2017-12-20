@@ -1,0 +1,32 @@
+package Swing;
+
+import java.awt.Container;
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class MailSend extends JFrame{
+	public MailSend() {
+		// TODO Auto-generated constructor stub
+		setTitle("邮件发送");
+		setBounds(350, 50, 880, 660);
+		setResizable(false);
+		Container container = getContentPane();
+//		container.setLayout(null);
+		// 开始添加面板
+		// 顶部按钮组
+		JPanel jPanel = new JPanel(new FlowLayout());
+		JButton jButtonTop = new JButton("发送");
+		// 设置
+		jPanel.add(jButtonTop);
+		container.add(jPanel);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new MailSend();
+	}
+}

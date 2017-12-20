@@ -1,0 +1,10 @@
+package Swing;
+
+import javax.swing.JFrame;
+
+public class MailSend extends JFrame{
+	public MailSend() {
+		// TODO Auto-generated constructor stub
+		setTitle("ÓÊ¼ş·¢ËÍ");
+	}
+}
