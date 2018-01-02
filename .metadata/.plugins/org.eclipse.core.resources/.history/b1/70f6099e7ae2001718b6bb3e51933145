@@ -1,9 +1,0 @@
-package dec;
-
-public interface SetParameter {
-	int FINALNUM = 20;
-	
-	public void getSum(int array);
-
-
-}

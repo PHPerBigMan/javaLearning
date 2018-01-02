@@ -1,9 +1,0 @@
-package Swing;
-
-public class LabelSetIcon {
-	// ´´½¨ ´°Ìå
-	public LabelSetIcon() {
-		// TODO Auto-generated constructor stub
-		
-	}
-}

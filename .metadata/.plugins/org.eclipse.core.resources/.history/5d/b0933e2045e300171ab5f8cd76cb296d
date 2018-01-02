@@ -1,7 +1,0 @@
-package Swing;
-
-import javax.swing.*;
-
-public class JFrameDemo2 extends JFrame{
-	
-}

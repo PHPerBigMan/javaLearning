@@ -1,0 +1,51 @@
+package Swing;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Font;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.SwingConstants;
+import javax.swing.border.EmptyBorder;
+
+
+public class WindowFocusListenterDemo extends JFrame{
+	// 声明窗体中的组件
+		private JPanel contentPane;
+		private JLabel lblTip;
+		private JLabel lblLight;
+	public WindowFocusListenterDemo() {
+		// TODO Auto-generated constructor stub\addWindowFocusListener(new myWindowFocusListener());//为窗体添加焦点事件监听器
+		setAutoRequestFocus(false); // JFrame窗体失去焦点
+		setResizable(false); // 不可改变窗体大小
+		setTitle("焦点事件的监听"); // 设置窗体题目
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // 设置窗体关闭的方式
+		setBounds(100, 100, 300, 300); // 设置窗体大小
+		/**
+		 * 创建JPanel面板contentPane置于JFrame窗体中，并设置面板的背景色、边距和布局
+		 */
+		contentPane = new JPanel();
+		contentPane.setBackground(Color.BLACK);
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPane.setLayout(new BorderLayout(0, 0));
+		setContentPane(contentPane);
+		/**
+		 * 创建标签lblTip置于JFrame窗体中的南侧，设置标签label_1中字体的颜色、样式以及水平居中
+		 */
+		lblTip = new JLabel("JFrame窗体失去焦点时，灯没亮！");
+		lblTip.setForeground(Color.CYAN);
+		lblTip.setFont(new Font("微软雅黑", Font.PLAIN, 14));
+		lblTip.setHorizontalAlignment(SwingConstants.CENTER);
+		contentPane.add(lblTip, BorderLayout.SOUTH);
+		/**
+		 * 创建标签lblLight置于JFrame窗体中的中间，设置标签label_2中的图标位置和样式
+		 */
+		lblLight = new JLabel("");
+		lblLight.setHorizontalAlignment(SwingConstants.CENTER);
+		lblLight.setIcon(new ImageIcon(""));
+		contentPane.add(lblLight, BorderLayout.CENTER);
+	}
+}

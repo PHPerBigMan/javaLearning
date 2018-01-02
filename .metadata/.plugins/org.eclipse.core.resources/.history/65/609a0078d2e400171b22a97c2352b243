@@ -1,7 +1,0 @@
-package Swing;
-
-import javax.swing.JFrame;
-
-public class JButtonDemo extends JFrame{
-
-}

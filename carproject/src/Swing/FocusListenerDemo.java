@@ -54,6 +54,8 @@ public class FocusListenerDemo extends JFrame{
 				jTextField.setBorder(BorderFactory.createLineBorder(Color.red));
 			}
 		}	
+
+		
 	}
 	public static void main(String[] args) {
 		new FocusListenerDemo();

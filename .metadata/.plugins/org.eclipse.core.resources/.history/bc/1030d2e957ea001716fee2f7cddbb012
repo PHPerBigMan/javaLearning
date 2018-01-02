@@ -1,0 +1,28 @@
+package Swing;
+
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowStateListener;
+
+import javax.swing.JFrame;
+
+public class WindowStateListenerDemo extends JFrame{
+	public WindowStateListenerDemo() {
+		// TODO Auto-generated constructor stub
+		setBounds(100, 100, 300, 300);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		new myWindowState();
+		setVisible(true);
+	}
+	
+	private class myWindowState implements WindowStateListener{
+		@Override
+		public void windowStateChanged(WindowEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	public static void main(String[] args) {
+		new WindowStateListenerDemo();
+	}
+}

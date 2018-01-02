@@ -1,0 +1,9 @@
+package IOTest;
+
+public class FileStreamDemo {
+	public static void main(String[] args) {
+		syso
+	}
+
+	File file = new File("demo.txt");
+}
